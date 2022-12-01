@@ -8,8 +8,8 @@ customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "gre
 
 class App(customtkinter.CTk):
 
-    WIDTH = 780
-    HEIGHT = 520
+    WIDTH = 1920
+    HEIGHT = 1080
 
     def __init__(self):
         super().__init__()
