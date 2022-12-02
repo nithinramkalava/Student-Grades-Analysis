@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-df = pd.read_csv(r"cse_grades.csv", index_col=0)
+df = pd.read_csv(r"sem2.csv", index_col=0)
 subjects = np.array("M-II CE AP PSP DLD CE-LAB AP-LAB PSP-LAB".split())
 grades = np.array("A+ A B C D E F".split())
 data = {}
